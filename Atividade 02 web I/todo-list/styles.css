@@ -1,0 +1,52 @@
+body{
+  background-image: url('data:image/jpeg;base64,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');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff
+} 
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tarefa-input{
+    background-color:rgba(0,0,0,0.6);
+    display: flex;
+    aling-itens: center;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: space-around
+}
+
+.tarefa-input input{
+  padding: 5px;
+  line-height:2px;
+  border-radius:7px
+}
+
+.limpar-button{
+  display: flex;
+  width: 350px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+
+}
+
+
+.tarefas-container p{
+  text-align: center;
+  padding: 5px;
+  width: 300px;
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.6);
+}
+
+#limpar-button{
+  width: 310px;
+  line-height:25px
+}
+

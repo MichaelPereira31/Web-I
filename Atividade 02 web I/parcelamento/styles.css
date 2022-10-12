@@ -1,0 +1,54 @@
+body{
+  background-image: url('https://blog.vetoreditora.com.br/wp-content/uploads/2021/05/como-as-financas-afetam-nosso-comportamento-dentro-da-empresa.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  text-align: center;
+  color: #1C1C1C;
+
+}
+
+input, button{
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  aling-itens: center;
+  width: 350px;
+  background-color:rgba(0,0,0,0.6);
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+table {
+  width: 360px;
+  border-radius: 5px;
+  background-color:rgba(0,0,0,0.6);
+  
+}
+
+.header th{
+  width: 50%;
+  margin-bottom: 5px;
+}
+
+tbody tr td{
+  text-align: center;
+  
+  width: 50%;
+}
